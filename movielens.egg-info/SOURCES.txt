@@ -1,0 +1,10 @@
+README.md
+movielens.egg-info/PKG-INFO
+movielens.egg-info/SOURCES.txt
+movielens.egg-info/dependency_links.txt
+movielens.egg-info/requires.txt
+movielens.egg-info/top_level.txt
+preproc/__init__.py
+preproc/movielens.py
+trainer/__init__.py
+trainer/task.py
