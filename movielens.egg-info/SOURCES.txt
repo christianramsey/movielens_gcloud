@@ -1,4 +1,5 @@
 README.md
+setup.py
 movielens.egg-info/PKG-INFO
 movielens.egg-info/SOURCES.txt
 movielens.egg-info/dependency_links.txt
