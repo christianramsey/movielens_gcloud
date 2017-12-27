@@ -1,0 +1,148 @@
+{
+  "feature": [
+    {
+      "domain": {
+        "strings": {}
+      },
+      "name": "cand_genre_ids",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "BYTES",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "strings": {}
+      },
+      "name": "cand_movie_id",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "BYTES",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "label_rating_score",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {
+            "floatDefaultValue": 0.0
+          }
+        }
+      },
+      "type": "FLOAT"
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "name": "query_rated_genre_avg_scores",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "FLOAT",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "name": "query_rated_genre_freqs",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "FLOAT",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "strings": {}
+      },
+      "name": "query_rated_genre_ids",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "BYTES",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "strings": {}
+      },
+      "name": "query_rated_movie_ids",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "BYTES",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "floats": {}
+      },
+      "name": "query_rated_movie_scores",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "FLOAT",
+      "valueCount": {}
+    },
+    {
+      "domain": {
+        "ints": {
+          "isCategorical": false,
+          "max": "9223372036854775807",
+          "min": "-9223372036854775808",
+          "vocabularyFile": ""
+        }
+      },
+      "fixedShape": {
+        "axis": []
+      },
+      "name": "query_user_id",
+      "parsingOptions": {
+        "tfOptions": {
+          "fixedLenFeature": {
+            "intDefaultValue": "-1"
+          }
+        }
+      },
+      "type": "INT"
+    },
+    {
+      "domain": {
+        "strings": {}
+      },
+      "name": "ranking_candidate_movie_ids",
+      "parsingOptions": {
+        "tfOptions": {
+          "varLenFeature": {}
+        }
+      },
+      "type": "BYTES",
+      "valueCount": {}
+    }
+  ],
+  "sparseFeature": []
+}
