@@ -20,6 +20,12 @@ SIX='six==1.10.0'
 TENSORFLOW='tensorflow==1.3.0'
 TENSORFLOW_TRANSFORM='tensorflow-transform==0.3.1'
 
+TENSORFLOW = 'tensorflow==1.3.0'
+TENSORFLOW_TRANSFORM = 'tensorflow-transform==0.3.1'
+PROTOBUF = 'protobuf==3.4.0'
+
+
+
 if __name__ == '__main__':
   setuptools.setup(name=NAME, version=VERSION, packages=['trainer', 'preproc'],
-                   install_requires=[TENSORFLOW_TRANSFORM,TENSORFLOW,SIX])
+                   install_requires=[TENSORFLOW_TRANSFORM,TENSORFLOW,PROTOBUF,SIX])
